@@ -1,0 +1,13 @@
+шрифты - open sans extrabold #fff (1 italic), lato black, heuristica regular,italic, SourceSansPro light 
+body bg  393f59
+---
+772
+47 к бургеру
+327 к банеру
+open sans extrabold #fff 60px
+42
+open sans italic fff 20px
+353 к стрелкам слайдера
+14 сверху и снизу стрелки
+18 слева 19 справа 2px fff
+к концу хедера 365

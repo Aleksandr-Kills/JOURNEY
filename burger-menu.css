@@ -1,0 +1,32 @@
+#header .burger-menu .main-item {
+    display: none;
+}
+#header .burger-menu .main-item {
+    display: block;
+}
+#header .burger-menu .navigation li {
+    display: block;
+}
+#header .burger-menu {
+    padding:0
+}
+#header .burger-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+#header .burger-menu .main-item {
+    text-align: right;
+    margin:47px 270px 0 0;
+}
+#header .burger-menu .navigation {
+    text-align:right;
+    background-color: rgba(53, 62, 70, 0.3);
+}
+#header .burger-menu .navigation ul {
+    margin:-27px 400px 0 0;
+}
+#header .burger-menu .navigation li {
+    padding-left:25px;
+    display: inline-block;
+    font: 16px "Source Sans Pro Light";
+}

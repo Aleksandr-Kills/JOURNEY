@@ -3,11 +3,10 @@ $('.main-item').click(function(){
 });
 
 jQuery('.slider').slick ({
-    dots: true,
-    arrows:false,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    dots: false,
+    arrows:true,
+    autoplay: false,
+    fade:true,
     speed: 1500,
-    pauseOnDotsHover: true,
-    draggable: false
+    draggable: true
 });

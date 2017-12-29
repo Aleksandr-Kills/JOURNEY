@@ -1,0 +1,8 @@
+#header .slider {
+    margin-top: -433px;
+    height: 772px;
+    z-index: -1;
+}
+#header .slider img {
+    height:772px;
+}

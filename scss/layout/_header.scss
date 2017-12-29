@@ -1,0 +1,20 @@
+body {
+  background-color: #393f59;
+}
+/* header */
+#header {
+  min-height: 772px;
+  .banner {
+    margin-top: 306px;
+    text-align: center;
+    h1 {
+      font: 60px "Open Sans Extrabold";
+      color: #fff;
+    }
+    p {
+      padding-top: 17px;
+      font: 20px "Open Sans Italic";
+      color: #fff;
+    }
+  }
+}
