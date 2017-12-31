@@ -8,7 +8,9 @@
     display: block;
 }
 #header .burger-menu {
-    padding:0
+    max-height:24px;
+    padding:0;
+    z-index: 1;
 }
 #header .burger-menu a {
     text-decoration: none;

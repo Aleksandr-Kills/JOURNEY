@@ -5,7 +5,8 @@ body {
 #header {
   min-height: 772px;
   .banner {
-    margin-top: 306px;
+    position:relative;
+    bottom:415px;
     text-align: center;
     h1 {
       font: 60px "Open Sans Extrabold";
