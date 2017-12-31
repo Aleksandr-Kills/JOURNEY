@@ -22,7 +22,7 @@
 }
 #header .burger-menu .navigation {
     text-align:right;
-    background-color: rgba(53, 62, 70, 0.3);
+    background-color: rgba(100, 134, 154, 0.2);
 }
 #header .burger-menu .navigation ul {
     margin:-27px 400px 0 0;
@@ -31,4 +31,7 @@
     padding-left:25px;
     display: inline-block;
     font: 16px "Source Sans Pro Light";
+}
+#header .burger-menu a:hover  {
+    color:darkgray;
 }

@@ -7,5 +7,5 @@ jQuery('.slider').slick ({
     arrows:true,
     autoplay: false,
     speed: 1500,
-    draggable: true
+    draggable: false
 });

@@ -2,8 +2,17 @@
     margin-top: -75px;
     height: 772px;
 }
-#header .slider img {
-    height:772px;
+#header .slider .one_bg {
+    height: 772px;
+    background: url("img/header_bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#header .slider .two_bg {
+    height: 772px;
+    background: url("img/header_bg_two.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 button.slick-prev {
     left: 25px;
@@ -18,8 +27,8 @@ button.slick-next {
     display: block;
     height: 20px;
     width: 20px;
-    line-height: 0px;
-    font-size: 0px;
+    line-height: 0;
+    font-size: 0;
     cursor: pointer;
     background: transparent;
     color: transparent;
