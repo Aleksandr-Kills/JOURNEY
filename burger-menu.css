@@ -25,7 +25,7 @@
     background-color: rgba(100, 134, 154, 0.2);
 }
 #header .burger-menu .navigation ul {
-    margin:-27px 400px 0 0;
+    margin:-27px 360px 0 0;
 }
 #header .burger-menu .navigation li {
     padding-left:25px;
@@ -34,4 +34,5 @@
 }
 #header .burger-menu a:hover  {
     color:darkgray;
+    transition: .6s;
 }
