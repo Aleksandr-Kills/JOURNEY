@@ -2,7 +2,22 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1400px) {
-
+    #header .burger-menu .main-item {
+        margin:47px 170px 0 0;
+    }
+    #header .burger-menu .navigation ul {
+        margin:-27px 260px 0 0;
+    }
+    button.slick-prev {
+        left: 25px;
+        width: 45px;
+        height: 45px;
+    }
+    button.slick-next {
+        right: 25px;
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media only screen and (max-width : 1199px) {
@@ -11,20 +26,119 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
-
+    #header .burger-menu .main-item {
+        margin:47px 140px 0 0;
+    }
+    #header .burger-menu .navigation ul {
+        margin:-27px 190px 0 0;
+    }
+    #header .burger-menu .navigation li {
+        padding-left: 15px;
+    }
+    button.slick-prev {
+        left: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    button.slick-next {
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #header .banner h1 {
+        font-size: 55px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
+    #header .burger-menu .main-item {
+        margin:47px 90px 0 0;
+    }
+    #header .burger-menu .navigation ul {
+        margin:-27px 135px 0 0;
+    }
+    #header .burger-menu .navigation li {
+        padding-left: 15px;
+    }
+    button.slick-prev {
+        left: 10px;
+        width: 36px;
+        height: 36px;
+    }
+    button.slick-next {
+        right: 10px;
+        width: 36px;
+        height: 36px;
+    }
+    #header .banner h1 {
+        font-size: 50px;
+    }
+    #header .banner p {
+        padding-top: 15px;
+        font: 16px "Open Sans Italic";
+    }
 }
 
 /* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+    #header .burger-menu .main-item {
+        margin:47px 15px 0 0;
+    }
+    #header .burger-menu .navigation ul {
+        margin:-27px 60px 0 0;
+    }
+    #header .burger-menu .navigation li {
+        padding-left: 10px;
+    }
+    button.slick-prev,
+    button.slick-next {
+        border: none;
+    }
+    button.slick-prev {
+        left:0 ;
+        width: 25px;
+        height: 25px;
+    }
+    button.slick-next {
+        right: 0;
+        width: 25px;
+        height: 25px;
+    }
+    #header .banner h1 {
+        font-size: 47px;
+    }
+    #header .banner p {
+        font: 14px "Open Sans Italic";
+    }
+}
 @media only screen and (max-width : 480px) {
 
 }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width : 479px) {
+    #header .slider {
+        display: none;
+    }
+    #header  {
+        background: url("img/header_bg.jpg");
+    }
+    #header .burger-menu .navigation ul {
+        margin:-27px 55px 0 0;
+    }
+    #header .burger-menu .navigation li {
+        padding-left: 7px;
+    }
+    #header .banner {
+        top: 282px;
+        bottom:0;
+    }
+    #header .banner h1 {
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width : 320px) {
 
 }
