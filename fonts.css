@@ -11,6 +11,10 @@
     src: url(./fonts/Lato/lato-black.ttf);
 }
 @font-face {
+    font-family: "Lato Bold";
+    src: url(./fonts/Lato/lato-Bold.ttf);
+}
+@font-face {
     font-family: "Heuristica Regular";
     src: url(./fonts/Heuristica/heuristicaregular.ttf);
 }
