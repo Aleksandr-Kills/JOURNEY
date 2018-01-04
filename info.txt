@@ -1,6 +1,8 @@
 шрифты - open sans extrabold #fff (1 italic), lato black, heuristica regular,italic, SourceSansPro light 
 body bg  393f59
 ---
+header
+-
 772
 47 к бургеру
 327 к банеру
@@ -11,3 +13,21 @@ open sans italic fff 20px
 14 сверху и снизу стрелки
 18 слева 19 справа 2px fff
 к концу хедера 365
+---
+content
+-
+820
+173
+Open Sans Extrabold 37.52 fff
+396
+Lato bold 24 fff
+15
+heuristica italic 21.3 b2b2b2
+35
+heuristica regular 21.3 fff
+Lorem ipsum dolor sit amet, sapi aqua sollicitudin, eu consequatur, liberoma id nisl, blandit dui. Accumsan iaculis. In felis et. In mi, at nullam bibendum. At vestibulum
+65 
+MORE Lato bold 16.38 cccccc  по 12 к верху и низу
+ширина кнопки 119 высота 44 2px fff
+к календарю 329
+высота 385 ширина 392 (некоторое чуть меньше)

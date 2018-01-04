@@ -1,0 +1,129 @@
+/*= CORE CSS */
+#eventCalendar {
+    height: 400px;
+    width: 350px;
+}
+.eventCalendar-hidden {
+    display: none;
+}
+.eventCalendar-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.eventCalendar-arrow {
+    position: absolute;
+    z-index: 5;
+    top: 3px;
+}
+.eventCalendar-prev {
+    left: 5px;
+}
+.eventCalendar-next {
+    right: 5px;
+}
+.eventCalendar-monthTitle {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+}
+.eventCalendar-monthWrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.eventCalendar-showAsWeek {
+    display: block;
+}
+.eventCalendar-showAsWeek li {
+    display: block;
+    float: left;
+    width: 14.28%;
+    height: 20px;
+}
+.eventCalendar-daysList a {
+    padding: 0;
+    display: block;
+    text-align: center;
+    font-size: 8px;
+    min-width: 7px;
+}
+.eventCalendar-wrap .eventCalendar-arrow {
+    text-decoration:none;
+    color:#fff;
+    line-height:28px;
+    top:9px;
+    padding:8px 10px;
+}
+.eventCalendar-wrap .eventCalendar-arrow:hover { opacity:0.7;}
+.eventCalendar-wrap .eventCalendar-arrow span {
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #fff;
+    float:left;
+    text-indent:-5000px;
+}
+.eventCalendar-wrap .eventCalendar-arrow.eventCalendar-prev span {
+    border-left-width:0;
+    border-right: 8px solid #fff;
+}
+.eventCalendar-monthWrap {
+    border-radius:5px;
+    top:10px;
+    left:0;
+}
+.eventCalendar-currentTitle {
+    line-height:25px;
+    font-family: Arial, "Lucida Grande", sans-serif;
+    font-size:20px;
+}
+.eventCalendar-currentTitle .eventCalendar-monthTitle {
+    font-size:110%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+}
+.eventCalendar-daysList {
+    zoom: 1;
+    padding:0;
+    width:100%;
+}
+.eventCalendar-daysList.eventCalendar-showAsWeek {
+    margin:55px 5px;
+    width:auto;
+    color: #aacac9;
+}
+.eventCalendar-daysList:before, .eventCalendar-daysList:after { content:""; display:table; }
+.eventCalendar-daysList:after { clear: both; }
+.eventCalendar-day-header {
+    text-transform:lowercase;
+    text-align:center;
+    font: bold 17px Arial, "Lucida Grande", sans-serif;
+}
+.eventCalendar-daysList.eventCalendar-showAsWeek li {
+    height:auto; margin:0;
+}
+.eventCalendar-daysList.eventCalendar-showAsWeek li.eventCalendar-empty {
+    min-height:27px;
+}
+.eventCalendar-day a {
+    text-decoration:none;
+    font-size:10px;
+    color:#424242;
+    cursor:default;
+}
+.eventCalendar-showAsWeek .eventCalendar-day a  {
+    padding-top:25px;
+    font-size:17px;
+    font-family: Arial, "Lucida Grande", sans-serif;
+    color: #979799;
+}
+.eventCalendar-daysList li.today a {
+    color:#fff;
+    /*text-shadow: 2px 2px 2px #777;*/
+}
+

@@ -1,1 +1,10 @@
 @import "helpers/extends", "helpers/variables", "layout/footer", "layout/header";
+/* content */
+/* part-one */
+#content .part-one {
+  margin-top: -150px;
+  min-height: 820px;
+  background: url("../img/content-one_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

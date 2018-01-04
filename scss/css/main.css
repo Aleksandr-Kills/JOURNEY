@@ -1,12 +1,14 @@
 body {
   background-color: #393f59; }
+
 /* header */
 #header {
   min-height: 772px; }
   #header .banner {
     position: relative;
     bottom: 465px;
-    text-align: center; }
+    text-align: center;
+    cursor: default; }
     #header .banner h1 {
       font: 60px "Open Sans Extrabold";
       color: #fff; }
@@ -14,5 +16,14 @@ body {
       padding-top: 17px;
       font: 20px "Open Sans Italic";
       color: #fff; }
+
+/* content */
+/* part-one */
+#content .part-one {
+  margin-top: -150px;
+  min-height: 820px;
+  background: url("../img/content-one_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
