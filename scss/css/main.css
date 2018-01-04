@@ -20,9 +20,9 @@ body {
 /* content */
 /* part-one */
 #content .part-one {
-  margin-top: -150px;
+  margin-top: -217px;
   min-height: 820px;
-  background: url("../img_2/content-one_bg.jpg");
+  background: url("../img_2/content-one_bg.jpg") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover; }
 
