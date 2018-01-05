@@ -66,6 +66,7 @@ body {
     transition: .6s; }
   #content .part-one .calendar {
     margin: -9px 60px 0 0;
-    float: right; }
+    float: right;
+    padding-bottom: 25px; }
 
 /*# sourceMappingURL=main.css.map */

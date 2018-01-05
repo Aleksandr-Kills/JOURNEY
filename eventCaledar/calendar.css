@@ -126,4 +126,6 @@
     color:#fff;
     /*text-shadow: 2px 2px 2px #777;*/
 }
-
+.eventCalendar-list-wrap {
+    display:none;
+}

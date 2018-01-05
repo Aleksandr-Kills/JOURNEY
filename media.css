@@ -18,10 +18,24 @@
         width: 45px;
         height: 45px;
     }
+    #content .part-one .p_two {
+        padding: 27px 230px 0 0;
+    }
 }
 
 @media only screen and (max-width : 1199px) {
-
+    #content .part-one .p_two {
+        padding: 27px 150px 0 0;
+    }
+    #content .part-one .h_two,
+    #content .part-one .p_one,
+    #content .part-one .p_two,
+    #content .part-one button {
+        margin-left: 15px;
+    }
+    #content .part-one .calendar {
+        margin: -9px 25px 0 0;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -47,6 +61,32 @@
     }
     #header .banner h1 {
         font-size: 55px;
+    }
+    #content .part-one {
+        text-align: center;
+    }
+    #content .part-one .p_two {
+        padding: 27px 0 0 0;
+        line-height:30px;
+    }
+    #content .part-one .calendar {
+        margin: 90px 0 0 0;
+        float: none;
+    }
+    #eventCalendar {
+        margin: 0 auto;
+    }
+    #content .part-one .h_two,
+    #content .part-one .p_one,
+    #content .part-one .p_two,
+    #content .part-one button {
+        margin-left: 0;
+    }
+    #content .part-one .block {
+        margin-top: 100px;
+    }
+    #content .part-one button {
+        margin-top: 47px;
     }
 }
 
@@ -137,10 +177,29 @@
     #header .banner h1 {
         font-size: 40px;
     }
+    .eventCalendar-daysList.eventCalendar-showAsWeek li {
+        margin: -1px;
+    }
+    #eventCalendar {
+        height:390px;
+        width: 300px;
+        left:8px;
+    }
+    .eventCalendar-prev {
+        left: 1px;
+    }
+    .eventCalendar-next {
+        right: 17px;
+    }
+    .eventCalendar-currentTitle .eventCalendar-monthTitle {
+        padding-right:23px;
+    }
 }
 
 @media only screen and (max-width : 320px) {
-
+    #eventCalendar {
+        left:3px;
+    }
 }
 
 @media only screen and (min-width : 768px) and (max-width: 991px) {
