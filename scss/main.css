@@ -22,7 +22,7 @@ body {
 #content .part-one {
   margin-top: -127px;
   min-height: 821px;
-  background: url("../img_2/content-one_bg.jpg") no-repeat center;
+  background: url("../img/content-one_bg.jpg") no-repeat center;
   -webkit-background-size: cover;
   background-size: cover; }
   #content .part-one .h_one {

@@ -5,12 +5,14 @@
 #header .slider .one_bg {
     height: 822px;
     background: url("img/header_bg.jpg") no-repeat center;
+    -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
 }
 #header .slider .two_bg {
     height: 822px;
     background: url("img/header_bg_two.jpg") no-repeat center;
+    -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
 }
