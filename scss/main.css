@@ -69,4 +69,27 @@ body {
     float: right;
     padding-bottom: 25px; }
 
+/* part-two */
+#content .part-two {
+  min-height: 779px;
+  background-color: #fff; }
+  #content .part-two .L {
+    margin: 154px 0 0 41px;
+    width: 279px;
+    height: 433px;
+    background: url("../img/L.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover; }
+  #content .part-two .p_one {
+    margin-top: -175px; }
+  #content .part-two .p_two,
+  #content .part-two .p_three {
+    margin-top: 140px; }
+  #content .part-two .p_four,
+  #content .part-two .p_five {
+    padding-top: 19px; }
+  #content .part-two p {
+    font: 24px "Source Sans Pro Light";
+    color: #707070; }
+
 /*# sourceMappingURL=main.css.map */

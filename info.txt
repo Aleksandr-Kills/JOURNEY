@@ -31,3 +31,41 @@ MORE Lato bold 16.38 cccccc  по 12 к верху и низу
 ширина кнопки 119 высота 44 2px fff
 к календарю 329
 высота 385 ширина 392 (некоторое чуть меньше)
+-
+779 fff
+154 к L
+430 первый абзац
+150 2 и 3
+SourceSansPro Light 24 707070
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis euismod quam. Fusce at tincidunt puruss. Nam vehicula ut neque eu elementum. Phasellus dapib us lobortis ornare. Suspendisse aliquam aliquet sdf fsfd vulputate. Cras volutpat, nibh et euismod ultricies, libero lorem sodales odio, a fermentum ante quam eu purus. we Cras euismod accumsan egestas. Nulla sit amet dolor leo. Ut lorem lacus, rutrum in efficitur eget, convallis sed erat. Phasellus varius enim eget est iaculis pretium. Etiam id ante congue, scelerisque tellus id, bibendum est.
+-
+346
+163
+OpenSans Extrabold 37px  fff
+TRAIN RIDES
+-
+348
+172
+OpenSans Extrabold 37px fff
+THE PEOPLE
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

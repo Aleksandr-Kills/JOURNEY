@@ -60,3 +60,31 @@
     padding-bottom:25px;
   }
 }
+/* part-two */
+#content .part-two {
+  min-height: 779px;
+  background-color: #fff;
+  .L {
+    margin: 154px 0 0 41px;
+    width: 279px;
+    height: 433px;
+    background: url("../img/L.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  .p_one {
+    margin-top: -175px;
+  }
+  .p_two,
+  .p_three{
+    margin-top: 140px;
+  }
+  .p_four,
+  .p_five {
+    padding-top: 19px;
+  }
+  p {
+    font: 24px "Source Sans Pro Light";
+    color: #707070;
+  }
+}
