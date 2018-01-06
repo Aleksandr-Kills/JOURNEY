@@ -87,7 +87,7 @@ body {
     margin-top: 140px; }
   #content .part-two .p_four,
   #content .part-two .p_five {
-    padding-top: 19px; }
+    padding: 19px 0 90px 0; }
   #content .part-two p {
     font: 24px "Source Sans Pro Light";
     color: #707070; }

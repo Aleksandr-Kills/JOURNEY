@@ -21,6 +21,9 @@
     #content .part-one .p_two {
         padding: 27px 230px 0 0;
     }
+    #content .part-two .p_one {
+        margin-top: -50px;
+    }
 }
 
 @media only screen and (max-width : 1199px) {
@@ -35,6 +38,12 @@
     }
     #content .part-one .calendar {
         margin: -9px 25px 0 0;
+    }
+    #content .part-two .p_one {
+        margin-top: 10px;
+    }
+    #content .part-two .L {
+        margin: 154px 0 0 0;
     }
 }
 
@@ -88,6 +97,23 @@
     #content .part-one button {
         margin-top: 47px;
     }
+    #content .part-two .p_one {
+        margin-top: -400px;
+    }
+    #content .part-two .L {
+        margin: 100px 0 0 41px;
+    }
+    #content .part-two .p_two,
+    #content .part-two .p_three {
+        margin-top: 55px;
+    }
+    #content .part-two .p_four,
+    #content .part-two .p_five {
+        padding: 15px 0 10px 0;
+    }
+    #content .part-two .p_five {
+        padding-bottom: 70px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -117,6 +143,9 @@
     #header .banner p {
         padding-top: 15px;
         font: 16px "Open Sans Italic";
+    }
+    #content .part-two .L {
+        margin: 100px 0 0 22px;
     }
 }
 
@@ -193,6 +222,9 @@
     }
     .eventCalendar-currentTitle .eventCalendar-monthTitle {
         padding-right:23px;
+    }
+    #content .part-two .L {
+        margin: 100px 0 0 0;
     }
 }
 
