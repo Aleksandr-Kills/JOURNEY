@@ -92,4 +92,24 @@ body {
     font: 24px "Source Sans Pro Light";
     color: #707070; }
 
+/* part-three,four */
+#content .part-three_four h1 {
+  text-align: center;
+  font: 37px "Open Sans Extrabold";
+  color: #fff; }
+#content .part-three_four .part-three {
+  min-height: 346px;
+  background: url("../img/content-three_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  #content .part-three_four .part-three h1 {
+    padding-top: 149px; }
+#content .part-three_four .part-four {
+  min-height: 348px;
+  background: url("../img/content-four_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  #content .part-three_four .part-four h1 {
+    padding-top: 158px; }
+
 /*# sourceMappingURL=main.css.map */

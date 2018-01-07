@@ -88,3 +88,30 @@
     color: #707070;
   }
 }
+/* part-three,four */
+#content .part-three_four {
+  h1 {
+    text-align: center;
+    font:  37px "Open Sans Extrabold";
+    color: #fff;
+  }
+  .part-three {
+    min-height: 346px;
+    background: url("../img/content-three_bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    h1 {
+      padding-top: 149px;
+
+    }
+  }
+  .part-four {
+    min-height: 348px;
+    background: url("../img/content-four_bg.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    h1 {
+      padding-top: 158px;
+    }
+  }
+}
