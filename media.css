@@ -226,6 +226,11 @@
     #content .part-two .L {
         margin: 100px 0 0 0;
     }
+    #content .part-five .block_one .p_two {
+        padding-left:20px;
+        padding-right:10px;
+        width: auto;
+    }
 }
 
 @media only screen and (max-width : 320px) {
