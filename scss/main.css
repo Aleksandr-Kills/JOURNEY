@@ -7,8 +7,7 @@ body {
   #header .banner {
     position: relative;
     bottom: 465px;
-    text-align: center;
-    cursor: default; }
+    text-align: center; }
     #header .banner h1 {
       font: 60px "Open Sans Extrabold";
       color: #fff; }
@@ -111,5 +110,70 @@ body {
   background-size: cover; }
   #content .part-three_four .part-four h1 {
     padding-top: 158px; }
+
+/* part-five */
+#content .part-five .col-md-6,
+#content .part-five .cols-xs-12 {
+  padding: 0; }
+#content .part-five .block_one {
+  min-height: 470px;
+  background: url("../img/content-five_one_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  #content .part-five .block_one h1 {
+    padding-top: 95px;
+    font: 24px "Lato Black";
+    color: #fff; }
+  #content .part-five .block_one .line {
+    margin: 25px auto;
+    height: 4px;
+    width: 74px;
+    background-color: #a0cecb; }
+  #content .part-five .block_one .p_one {
+    margin-top: -8px;
+    line-height: 27px !important;
+    font: 21px "Heuristica Italic";
+    color: #fff; }
+  #content .part-five .block_one .p_two {
+    width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 46px;
+    font: 18px "Heuristica Regular";
+    color: #b2b2b2; }
+    #content .part-five .block_one .p_two span {
+      color: #fff; }
+#content .part-five .block_two {
+  min-height: 470px;
+  background: url("../img/content-five_two_bg.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  #content .part-five .block_two .line {
+    position: relative;
+    top: 159px;
+    height: 6px;
+    width: 57px;
+    margin: 0 auto;
+    background-color: #a0cecb; }
+  #content .part-five .block_two h1 {
+    padding-top: 187px;
+    font: 24px "Lato Black";
+    color: #fff; }
+  #content .part-five .block_two p {
+    padding-left: 10px;
+    position: relative;
+    bottom: 7px;
+    display: inline-block;
+    font: 20px "Heuristica Regular";
+    color: #fff; }
+    #content .part-five .block_two p a {
+      text-decoration: none;
+      color: #fff; }
+    #content .part-five .block_two p a:hover {
+      color: #a0cecb; }
+  #content .part-five .block_two img {
+    padding: 65px 0 0 32px; }
 
 /*# sourceMappingURL=main.css.map */

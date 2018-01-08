@@ -49,6 +49,33 @@ TRAIN RIDES
 OpenSans Extrabold 37px fff
 THE PEOPLE
 -
+470
+-
+one
+-
+101
+Lato black 24 fff
+30
+полоска 4 высота 74 ширина a0cecb
+21
+Heuristica italic 21 fff  (между строками 12)
+56
+Heuristica regular 18
+Lorem ipsum fff
+dolor sit amet, sapi aqua sollicitudin, eu consequatur, liberoma id nisl, blandit dui. Accumsan iaculis. In felis et. In mi, at nullam bibendum. At  b2b2b2
+-
+two
+-
+159
+6 высота  57 ширина a0cecb
+34
+lato black fff 24
+HOW TO EXPAND INTERNATIONALY
+70
+lato regular fff
+25 Jan, 2018
+
+
 
 
 
