@@ -74,15 +74,19 @@ HOW TO EXPAND INTERNATIONALY
 70
 lato regular fff
 25 Jan, 2018
-
-
-
-
-
-
-
-
-
+-
+706
+288
+Open Sans Extrabold 37px fff
+TRAVEL WITH US
+73
+кнопки
+250 ширина 59 высота lato bold fff  16  от края к иконке 29 к слову 42
+первая - 3671b9
+вторая - 55c1e7
+211
+Copyright 2018
+OpenSans italic fff  16
 
 
 
