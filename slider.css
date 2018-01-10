@@ -50,3 +50,12 @@ button.slick-prev:hover,
 button.slick-next:hover {
     opacity:0.6;
 }
+@-moz-document url-prefix() {
+    #header .slider {
+        position: relative;
+        bottom: 74px;
+    }
+    .slick-list {
+        width: 100%;
+    }
+}
