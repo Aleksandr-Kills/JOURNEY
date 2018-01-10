@@ -16,50 +16,6 @@ body {
       font: 20px "Open Sans Italic";
       color: #fff; }
 
-/* footer */
-#footer {
-  min-height: 706px;
-  background: url("../img/header_bg_two.jpg") no-repeat center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  text-align: center; }
-  #footer h1 {
-    padding-top: 274px;
-    font: 37px "Open Sans Extrabold";
-    color: #fff; }
-  #footer button {
-    margin-top: 58px;
-    font: 16px "Lato Bold";
-    color: #fff;
-    outline: none;
-    width: 250px;
-    height: 59px;
-    border-radius: 50px;
-    border: none; }
-  #footer .b_one {
-    background: #3671b9 url("../img/facebook.png") no-repeat 29px; }
-  #footer .b_two {
-    background: #55c1e7 url("../img/twitter.png") no-repeat 29px;
-    margin-left: 20px; }
-  #footer .b_one:hover {
-    color: #3671b9;
-    background-color: #DCDCDC;
-    box-shadow: 0 0 10px 2px #3671b9;
-    transition: .6s; }
-  #footer .b_two:hover {
-    color: #55c1e7;
-    background-color: #DCDCDC;
-    box-shadow: 0 0 8px 2px #55c1e7;
-    transition: .6s; }
-  #footer a {
-    text-decoration: none; }
-  #footer p {
-    padding-top: 207px;
-    font: 16px "Open Sans Italic";
-    color: #fff;
-    opacity: 0.9;
-    letter-spacing: 1px; }
-
 /* content */
 /* part-one */
 #content .part-one {
@@ -219,5 +175,49 @@ body {
       color: #a0cecb; }
   #content .part-five .block_two img {
     padding: 65px 0 0 32px; }
+
+/* footer */
+#footer {
+  min-height: 706px;
+  background: url("../img/header_bg_two.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  #footer h1 {
+    padding-top: 274px;
+    font: 37px "Open Sans Extrabold";
+    color: #fff; }
+  #footer button {
+    margin-top: 58px;
+    font: 16px "Lato Bold";
+    color: #fff;
+    outline: none;
+    width: 250px;
+    height: 59px;
+    border-radius: 50px;
+    border: none; }
+  #footer .b_one {
+    background: #3671b9 url("../img/facebook.png") no-repeat 29px; }
+  #footer .b_two {
+    background: #55c1e7 url("../img/twitter.png") no-repeat 29px;
+    margin-left: 20px; }
+  #footer .b_one:hover {
+    color: #3671b9;
+    background-color: #DCDCDC;
+    box-shadow: 0 0 10px 2px #3671b9;
+    transition: .6s; }
+  #footer .b_two:hover {
+    color: #55c1e7;
+    background-color: #DCDCDC;
+    box-shadow: 0 0 8px 2px #55c1e7;
+    transition: .6s; }
+  #footer a {
+    text-decoration: none; }
+  #footer p {
+    padding-top: 207px;
+    font: 16px "Open Sans Italic";
+    color: #fff;
+    opacity: 0.9;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=main.css.map */

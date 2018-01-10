@@ -1,4 +1,4 @@
-@import "helpers/extends", "helpers/variables", "layout/header", "layout/footer";
+@import "helpers/extends", "helpers/variables", "layout/header";
 /* content */
 /* part-one */
 #content .part-one {
@@ -195,3 +195,4 @@
     }
   }
 }
+@import "layout/footer";

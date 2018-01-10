@@ -180,6 +180,19 @@
     #header .banner p {
         font: 14px "Open Sans Italic";
     }
+    #footer p {
+        padding-bottom:40px;
+    }
+    #footer button {
+        margin-top: 0;
+    }
+    #footer .b_one {
+        margin-top:58px;
+    }
+    #footer .b_two {
+        margin:15px 0 0 0;
+    }
+
 }
 @media only screen and (max-width : 480px) {
 
