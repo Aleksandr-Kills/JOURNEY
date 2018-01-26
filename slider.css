@@ -50,6 +50,7 @@ button.slick-prev:hover,
 button.slick-next:hover {
     opacity:0.6;
 }
+/* hack for mozilla */
 @-moz-document url-prefix() {
     #header .slider {
         position: relative;
@@ -59,11 +60,22 @@ button.slick-next:hover {
         width: 100%;
     }
 }
+/* hack for safari */
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
     ::i-block-chrome, button.slick-prev,
     button.slick-next  {
         width: 47px;
         height: 47px;
+    }
+}
+/* hack for ie 10, 11 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #header .slider {
+        position: relative;
+        bottom: 74px;
+    }
+    .slick-list {
+        width: 100%;
     }
 }
